@@ -32,7 +32,7 @@ public class WebSecurityConfig {
         return http
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/categorys/**", "/h2-console/**","/api/users/**").permitAll()
+                        .requestMatchers("/api/categorys/**", "/api/adds/**", "/h2-console/**","/api/users/**").permitAll()
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authenticationProvider(authenticationProvider)

@@ -1,0 +1,96 @@
+.manage-genres-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-genres-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .genres-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .genre-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .genre-info span {
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  .edit-genre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .edit-genre input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .edit-genre button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-genre button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-genre button:last-child {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .genre-info button {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .genre-info button:first-child {
+    background-color: #007bff;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .genre-info button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
