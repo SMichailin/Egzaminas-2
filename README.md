@@ -6,7 +6,7 @@ Node.js (v14 or higher) npm (v6 or higher) or Yarn (optional) Java (JDK 17 or hi
 
 Installation
 
-Clone the repository git clone git@github.com:SMichailin/BookRecommendations.git cd BookRecommendations
+Clone the repository git clone git@github.com:SMichailin/Egzaminas-2.git cd Egzaminas-2
 Open the src/main/resources/application.properties file. Comment out local database code. If you haven't changed anything leave it as is. Back End
 Run the application from IntelliJ.
 Front End
